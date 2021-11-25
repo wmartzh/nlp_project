@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nlp_project"
+version = "0.1.0"
+description = "A basic nlp project"
+authors = ["wmartzh <wmartzh@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tensorflow = "^2.4.1"
+pandas = "^1.2.4"
+tensorflow-datasets = "^4.2.0"
+nltk = "^3.6.2"
+matplotlib = "^3.4.1"
+wordcloud = "^1.8.1"
+textblob = "^0.15.3"
+bs4 = "^0.0.1"
+sklearn = "^0.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
